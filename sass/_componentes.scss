@@ -1,0 +1,13 @@
+    $border-bottom: 5px solid goldenrod;
+    $border-top: 5px solid goldenrod;
+    
+section{
+    border-bottom: $border-bottom;
+    border-top: $border-top;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    background: rgb(79,26,140);
+    background: radial-gradient(circle, rgba(79,26,140,1) 0%, rgba(7,12,74,0.9500175070028011) 100%);
+}
+ 

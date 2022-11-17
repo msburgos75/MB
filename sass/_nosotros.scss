@@ -1,0 +1,75 @@
+$color: white;
+$background-color: rgba(7,12,74,0.9500175070028011);
+h1{
+    color:$color;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    background: radial-gradient(circle, rgba(79,26,140,1) 0%, rgba(7,12,74,0.9500175070028011) 100%);
+}
+section{
+color: $color;
+background-color: $background-color;
+}
+
+h2{  
+color: white;
+font-style: italic;
+text-align: center;
+padding-bottom: 10px;
+font-size: 30px;
+background: radial-gradient(circle, rgba(79,26,140,1) 0%, rgba(7,12,74,0.9500175070028011) 100%);
+}
+nav{
+    ul{
+    float: right;
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding-inline-start: 10px;
+    padding-top: 10px;
+    }
+}
+main{
+    padding-top: 20px;
+}
+
+div{
+    padding-top: 20px;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    font-style: normal;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(62, 25, 131),rgb(62, 25, 31));
+    font-weight: bold;
+    border-bottom: 5px solid goldenrod;
+    border-top: 5px solid goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p:hover{
+    color: blue;
+}
+@media (min-width: 1024px){
+footer{
+    background-color: $background-color;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-items: center;
+}
+section{
+    background-color: $background-color
+}
+}
+p{
+    padding-top: 10px;
+}
